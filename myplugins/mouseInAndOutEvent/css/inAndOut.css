@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+}
+#box{
+    width:1250px;
+    height:360px;
+    border:2px solid #ddd;
+    margin:100px auto;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#box ul li{
+    position:relative;
+    width:230px;
+    height:360px;
+    background:red;
+    float:left;
+    margin:0 10px;
+    overflow:hidden;
+}
+#box ul li a{
+    position:absolute;
+    width:230px;
+    height:360px;
+    background:rgba(38,16,19,.5);
+    top:0;
+}
